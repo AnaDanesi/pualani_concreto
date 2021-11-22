@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a794561266.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="apple-touch-icon" sizes="180x180" href="../multimedia/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../multimedia/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../multimedia/favicon-16x16.png">
+  
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500&family=Dosis:wght@300;400&family=Hammersmith+One&family=Montserrat:wght@200;300;400&family=Spartan:wght@200;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/contacto.css">
+    <title>Pualani | Macetas en concreto</title>
+</head>
+<body>
+
+  
+  <header class="main-header">
+    <div class="container container--flex">
+      <div class="main-header__container">
+        <img class="main-header__logo" src="../multimedia/pualani_logo.jpg" alt="">
+        <span class="icon-menu" id="btn-menu"><i class="fas fa-bars"></i></span>
+        <nav class="main-nav" id="main-nav">
+          <ul class="menu">
+            <li class="menu__item"><a href="../index.html" class="menu__link">HOME</a></li>
+            <li class="menu__item"><a href="../secciones/tienda.html" class="menu__link">TIENDA</a></li>
+            <li class="menu__item"><a href="../secciones/contacto.html" class="menu__link">CONTACTO</a></li>
+          </ul>
+          <div>
+            <button id="dark"> <i class="fas fa-adjust"></i>Light/Dark Mode</button>
+        </div>
+        </nav>
+      </div>
+      <div class="main-header__container">
+        <span class="main-header__txt">Necesitas ayuda?</span>
+        <p class="main-header__txt"><i class="fab fa-whatsapp"></i>    Escribinos al 11********</p>
+      </div>
+      <div class="main-header__container">
+       
+        <a href="../secciones/tienda.html" class="main-header__btn">Mi carrito <i class="fas fa-shopping-cart"></i></a>
+      
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="main-contacto">
+        <h1>Contactate con nosotros!</h1>
+        <br>
+
+
+        <div id="contact_form">
+            <form name="contact" action="">
+              <fieldset>
+                <label for="name" id="name_label">Nombre</label>
+                <input type="text" name="name" id="name" size="30" value="" class="text-input" placeholder="Nombre"/>
+                <label class="error" for="name" id="name_error">Este campo es requerido.</label>
+                
+                <label for="email" id="email_label">Email</label>
+                <input type="email" name="email" required id="email" size="30" value="" class="text-input" placeholder="Email" />
+                <label class="error" for="email" id="email_error">Este campo es requerido.</label>
+                
+                <div>
+                    <label for="form">Cómo nos conociste?: </label>
+                    <select name="">
+                        <option value="Facebook">Facebook</option>
+                        <option value="Instagram">Instagram</option>
+                        <option value="Recomendación">Recomendación</option>
+                        <option value="Publicidad">Publicidad en redes</option>
+                        <option value="Otro">Otro</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label for="comment">Dejanos tu consulta:</label>
+                    <br>
+                    <textarea id="textarea" name="comment" cols="30" rows="10"
+                        placeholder="Deja tu consulta"></textarea>
+                </div>
+                  <br />
+                <input type="submit" name="submit" class="button" id="submit_btn" value="Enviar" />
+                <input type="reset" value="Limpiar Formulario" class="button" id="reset_btn">
+
+                <div id="envioExitoso">Tu consulta ha sido enviada!</div>
+              
+              </fieldset>
+            </form>
+           
+
+
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer__section">
+          <h2 class="footer__title">Sobre Nosotros</h2>
+          <p class="footer__txt">Emprendimiento de macetas y otros productos en concreto y terrazzo.
+               
+            Todo artesanal y hecho con amor!
+          </p>
+        </div>
+        <div class="footer__section">
+          <h2 class="footer__title">Direccion </h2>
+          <p class="footer__txt">Pick up points en  Palermo y Belgrano</p>
+          <h2 class="footer__title">Contacto</h2>
+          <p class="footer__txt"><i class="fab fa-whatsapp"></i>  Whatsapp : 1132*********</p>
+          <p class="footer__txt"><i class="far fa-envelope"></i>  Email : pualani.concreto@gmail.com</p>
+          <a href="https://www.instagram.com/pualani.concreto/" class="footer__link" class="footer__txt"><i class="fab fa-instagram"></i>  pualani.concreto</a> 
+  
+        </div>
+        <div class="footer__section">
+          <h2 class="footer__title">Links Rapidos</h2>
+          <a href="../index.html" class="footer__link">Home</a>
+        <a href="../error404.html" class="footer__link">Error</a>
+        <a href="../secciones/tienda.html" class="footer__link">Tienda</a>
+        <a href="../secciones/contacto.html" class="footer__link">Contacto</a>
+        </div>
+        <div class="footer__section">
+          <h2 class="footer__title">Suscribite!</h2>
+          <p class="footer__txt">Suscribiendote a nuestro mailing, recibiras las ultimas ofertas y novedades!.</p>
+          <input type="email" class="footer__input" placeholder="Ingresa tu email">
+          <button type="submit" id="btn-suscribe">OK</button>
+        </div>
+        <p class="copy">© 2021 Pualani. All Rights Reserved | Design by Anana</p>
+      </footer>
+  
+  
+  
+  
+  
+  
+  
+  
+      <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+      <script src="../js/contacto.js"></script>
+  </body>
+  </html>
